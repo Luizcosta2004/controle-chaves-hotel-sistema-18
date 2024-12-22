@@ -19,7 +19,11 @@ const config: CapacitorConfig = {
     minSdkVersion: 14, // Alterado para Android 4.0.4 (API 14)
     targetSdkVersion: 33,
     versionCode: 1,
-    versionName: "1.0.0"
+    versionName: "1.0.0",
+    allowMixedContent: true,
+    appendUserAgent: "HotelKeys Android App",
+    overrideUserAgent: false,
+    backgroundColor: "#4F46E5"
   },
   plugins: {
     SplashScreen: {
