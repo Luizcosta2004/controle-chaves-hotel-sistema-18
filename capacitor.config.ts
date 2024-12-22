@@ -16,7 +16,7 @@ const config: CapacitorConfig = {
       keystoreAlias: undefined,
       keystoreAliasPassword: undefined
     },
-    minSdkVersion: 19, // Alterado para Android 4.4 (API 19)
+    minSdkVersion: 14, // Alterado para Android 4.0.4 (API 14)
     targetSdkVersion: 33,
     versionCode: 1,
     versionName: "1.0.0"
